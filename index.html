@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mikelis Silins — Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Devicons for additional icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">MIKELIS</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav no-search">
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#tech" class="nav-link">Technologies</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+
+        <!-- About Me Section -->
+        <section id="about" class="block">
+            <div class="about-content">
+                <img src="profile.png" alt="Mikelis Silins" class="profile-image">
+                <div class="about-text">
+                    <h2>Web Developer</h2>
+                    <p>Hi! I'm <strong>Mikelis Silins</strong>. Ever since I wrote my first line of code, I've been hooked on the endless possibilities of programming. I'm a web developer who loves turning complex problems into simple, beautiful solutions.</p>
+                    <p>I believe that technology should make life easier and more enjoyable, and I'm passionate about creating applications that do just that. Whether it's a small script or a full-fledged web app, I'm all about crafting tools that people love to use.</p>
+                    <p>Feel free to reach out—I'm always up for a chat about tech, new ideas, or collaboration opportunities!</p>
+                </div>
+            </div>
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://github.com/grifs250" target="_blank" class="social-button">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.instagram.com/mikelis_silins/" target="_blank" class="social-button">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="mailto:mikelissilins25@gmail.com" class="social-button">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+      </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="block">
+            <h2>Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=15194s" class="timeline-link">
+                        <h3>2019 - Began Programming Journey</h3>
+                        <p>Started exploring programming and web development during the onset of the COVID-19 pandemic.</p>
+                    </a>
+                </div>
+                <div class="timeline-item">
+                    <a href="https://www.rtk.lv/lv/videja-izglitiba/izglitibas-programmas/programmesana/" class="timeline-link">
+                        <h3>2023 - Enrolled at Riga Technical College</h3>
+                        <p>Began pursuing a Programming Technician Diploma to further my education in software development.</p>
+                    </a>
+                </div>
+                <div class="timeline-item">
+                    <a href="https://certificates.cs50.io/466fb85f-305d-41d6-bb04-640d14936022.pdf?size=letter" class="timeline-link">
+                    <h3>Summer 2024 - Completed Harvard's CS50 Course</h3>
+                    <p>Completed Harvard’s CS50 course to deepen my understanding of computer science and enhance my web development skills.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section id="tech" class="block">
+            <h2>Technologies</h2>
+            <div class="tech-grid">
+                <!-- Front-End Technologies -->
+                <div class="tech-item"><i class="devicon-html5-plain"></i> HTML</div>
+                <div class="tech-item"><i class="devicon-css3-plain"></i> CSS</div>
+                <div class="tech-item"><i class="devicon-javascript-plain"></i> JavaScript</div>
+
+                <!-- Back-End Technologies -->
+                <div class="tech-item"><i class="devicon-nodejs-plain"></i> Node.js</div>
+                <div class="tech-item"><i class="devicon-express-original"></i> Express</div>
+
+                <!-- Programming Languages -->
+                <div class="tech-item"><i class="devicon-python-plain"></i> Python</div>
+                <div class="tech-item"><i class="devicon-java-plain"></i> Java</div>
+                <div class="tech-item"><i class="devicon-c-plain"></i> C</div>
+                <div class="tech-item"><i class="devicon-cplusplus-plain"></i> C++</div>
+                <div class="tech-item"><i class="devicon-bash-plain"></i> Bash</div>
+
+                <!-- Databases -->
+                <div class="tech-item"><i class="devicon-mysql-plain"></i> MySQL</div>
+                <div class="tech-item"><i class="devicon-sqlite-plain"></i> SQLite</div>
+                <div class="tech-item"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+
+                <!-- Tools and Others -->
+                <div class="tech-item"><i class="devicon-git-plain"></i> Git</div>
+                <div class="tech-item"><i class="fas fa-envelope"></i> Nodemailer</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="block">
+            <h2>Recent Projects</h2>
+            <div class="project-list">
+            <div class="project-item" data-link="https://github.com/grifs250/email-automation" data-image="email-collection.png">
+                <div class="project-content">
+                <h3>Email-Lead Collection System</h3>
+                <p>Developed an automated email system for my YouTube channel...</p>
+                </div>
+            </div>
+            <div class="project-item" data-link="https://github.com/grifs250/TodoApp" data-image="todo-app.png">
+                <div class="project-content">
+                <h3>Todo App</h3>
+                <p>Created a clean, easy-to-use Todo app that helps users manage tasks efficiently...</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Contact Me Section -->
+        <section id="contact" class="block">
+            <h2>Contact</h2>
+            <p>If you're looking for a dedicated developer with a passion for creating exceptional applications, feel free to reach out!</p>
+            <div class="social-links">
+                <a href="mailto:mikelissilins25@gmail.com" class="social-button">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <a href="https://github.com/grifs250" target="_blank" class="social-button">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://youtube.com/@mikelis_silins" target="_blank" class="social-button">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+                <a href="https://www.instagram.com/mikelis_silins/" target="_blank" class="social-button">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
